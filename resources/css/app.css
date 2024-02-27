@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layoutTransparent{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg {
+    background-image: url("/resources/assets/bg.png");
+}
+
+.bg-gold {
+    background-image: url("/resources/assets/gold2.jpg");
+    height: 100%;
+}
+
+
+
+.footer{
+    background-color: rgba(0, 0, 0);
+    color: #DCCA87;
+    padding: 1.5rem 3rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.footer_links a{
+    font-size: 1.25rem;
+    padding: 0.2rem;
+    color: #DCCA87;
+    text-decoration:none;
+    
+    place-items: center;
+}
+
+.footer-facebook :hover {
+    color: #37539a;
+}
+.footer-instagram :hover {
+    color: #C13584;
+}
+.footer-messenger :hover {
+    color: #519bfd;
+}
+.footer-whatsapp :hover {
+    color: #58f860;
+}
